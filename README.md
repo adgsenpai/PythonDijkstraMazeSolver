@@ -22,7 +22,7 @@ Map: 94
     ##
          +
 -------------------
-Djikstra Path
+Dijkstra Path
 *ooo  #
   #o # #
   #o #
@@ -46,7 +46,7 @@ Map: 95
      # #
   # ##   +
 -------------------
-Djikstra Path
+Dijkstra Path
 *o#oooo###
  ooo# oo#
    #  #ooo

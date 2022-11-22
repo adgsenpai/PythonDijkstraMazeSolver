@@ -102,7 +102,7 @@ def pathExists(map):
     #if we get here, we have no more places to go and we haven't found the end
     return False    
  
-def Djikstra(map):
+def Dijkstra(map):
     # map is a matrix where 1 is a wall and 0 is a path and a * is the start and a + is the end
     # it is a numpy array
 
@@ -165,8 +165,8 @@ def Djikstra(map):
     return dist,prev
 
 
-def printOptimalDjikstraPath(map):
-    dist,prev = Djikstra(map)
+def printOptimalDijkstraPath(map):
+    dist,prev = Dijkstra(map)
     #S ← empty sequence
     #u ← target
     #if prev[u] is defined or u = source: 
@@ -214,11 +214,11 @@ for i in range(100):
         print("Map: {0}".format(i))                
         printMap(map)
         print("-------------------")
-        print('Djikstra Path')
+        print('Dijkstra Path')
         try:
-            printOptimalDjikstraPath(map)        
+            printOptimalDijkstraPath(map)        
         except:
-            print("Djikstra Failed due to unsolveable map")
+            print("Dijkstra Failed due to unsolveable map")
         print()
         c += 1
     except:        
