@@ -1,6 +1,9 @@
 # PythonDijkstraMazeSolver
 given a matrix of [1s,0s] [*(start)] and [+(end)] computing the most optimal path in the matrix
 
+Could be able to solve a matrix of size $M\times{N}$
+
+
 ![220px-Dijkstra_Animation](https://user-images.githubusercontent.com/45560312/203317022-8ce0315d-7ff6-414a-be55-6e34c6f03a59.gif)
 ![DijkstraDemo](https://user-images.githubusercontent.com/45560312/203316824-ed297a96-0fc0-4037-88a1-b69e059cab8c.gif)
 
@@ -55,6 +58,7 @@ Djikstra Path
      # # o
   # ##   +
 ```
+#### Requirements you should get numpy thats it!
 
 I used this Pseudocode provided by the wikipedia website to engineer my solution.
 
